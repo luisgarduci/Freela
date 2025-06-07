@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+section#contact {
+    display: flex;
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contact > #number {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+section#contact > #number > #icon-whats {
+    width: 30px;
+}
+
+section#contact > #number > a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+section#contact > #social-media {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+section#contact > #social-media > a > img{
+   width: 35px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+header > #container-log {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header > #burguer-menu > i {
+    font-size: 40px;
+}
+
+header > #burguer-menu {
+    display: none;
+    cursor: pointer;
+}
+
+header > #phone-menu {
+    position: absolute;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    right: 5px;
+    top: 70px;
+    z-index: 5;
+    visibility: hidden;
+}
+
+header > #phone-menu > a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+}
+
+header > #container-information {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+header > #container-information > a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .carousel-slide {
+    display: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  
+  .prev { 
+    left: 10px; 
+}
+  .next { 
+    right: 10px; 
+}
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  section#service {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    background-color: #EEEEEE;
+    height: 600px;
+  }
+
+  section#service > h1 {
+    margin-top: 10px;
+  }
+
+  section#service > #service-details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  section#service > #service-details > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  section#service > a {
+    background-color: #AA0C0C;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  section#service > #service-details > div > p {
+    width: 380px;
+    text-align: center;
+  }
+
+  section#service > #service-details > div > .circle {
+    border-radius: 50%;
+    padding: 20px;
+    border: 10px solid #AA0C0C;
+    background-color: white;
+  }
+
+  section#service > #service-details > div > .circle > i{
+    font-size: 100px;
+    color: #AA0C0C;
+  }
+
+ @media (max-width: 1190px) {
+    section#service > #service-details {
+        gap: 5px;
+    }
+
+    section#service > #service-details > div >  p {
+       width: 355px;
+    }
+
+    section#service {
+        height: auto;
+    } 
+
+    header {
+        justify-content: space-around;
+    }
+
+    header > #container-information {
+        display: none;
+    }
+
+    header > #burguer-menu {
+        display: block;
+    }
+
+ }
+
+  @media (max-width: 1100px) {
+     
+    section#service > #service-details {
+        flex-direction: column;
+    }
+    section#service > #service-details {
+        gap: 40px;
+      }
+  }
