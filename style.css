@@ -164,9 +164,9 @@ header > #container-information > a {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    gap: 70px;
+    gap: 60px;
     background-color: #EEEEEE;
-    height: 600px;
+    height: 650px;
   }
 
   section#service > h1 {
@@ -216,6 +216,36 @@ header > #container-information > a {
     color: #AA0C0C;
   }
 
+  section#modality {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  section#modality > h1 {
+    font-size: 33px;
+  }
+
+  section#modality > #container-modalities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  section#modality > #container-modalities > div > p {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    font-size: 23px;
+  }
+
  @media (max-width: 1190px) {
     section#service > #service-details {
         gap: 5px;
@@ -251,4 +281,19 @@ header > #container-information > a {
     section#service > #service-details {
         gap: 40px;
       }
+  }
+
+  @media (max-width: 700px) {
+
+    section#modality > h1 {
+       font-size: 28px;
+    }
+
+    section#modality > #container-modalities > div > img {
+      width: 400px;
+    }
+
+    section#modality > #container-modalities {
+      gap: 50px;
+    }
   }
