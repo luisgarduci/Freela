@@ -238,25 +238,42 @@ body {
     transition: 0.5s;
   }
 
-  section#partners {
-    margin-top: 130px;
+  section#message {
     width: 100%;
+    background-color: #2F2F2F;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
-  }
-  
-  section#partners > div {
-       display: flex;
-       justify-content: space-evenly;
-       align-items: center;
-       width: 100%;
+    gap: 42px;
+    margin-top: 90px;
   }
 
-  section#partners > h1 {
-    font-size: 30px;
+  section#message > h1 {
+    font-size: 33px;
+    color: white;
+  }
+
+  section#message > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  section#message > form > input {
+    width: 550px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  section#message> form > button {
+    width: 200px;
+    padding: 8px;
+    background-color: #EBD924;
+    color: white;
+    border-radius: 8px;
   }
 
   button#back-top {
@@ -275,28 +292,15 @@ body {
   }
 
  @media (max-width: 1190px) {
-    section#identity > #identity-details {
-        gap: 5px;
-    }
-
-    section#identity > #identity-details > div >  p {
-       width: 355px;
-    }
-
-    section#identity {
-        height: auto;
-    } 
+    
 
  }
 
   @media (max-width: 1100px) {
      
-    section#identity > #identity-details {
-        flex-direction: column;
+    section#identity > #container-cards{
+      gap: 20px;
     }
-    section#identity > #identity-details {
-        gap: 40px;
-      }
 
       section#about-us > p{
          font-size: 18px;
@@ -325,6 +329,23 @@ body {
         font-size: 20px;
       }
 
+
+  }
+
+  @media (max-width: 950px) {
+
+    section#identity {
+      height: 900px;
+      padding: 10px 0px 10px 0px;
+      gap: 30px;
+    }
+    section#identity > #container-cards > div{
+       padding: 15px;
+    }
+
+    section#identity > #container-cards {
+      flex-direction: column;
+    }
   }
 
   @media (max-width: 800px) {
@@ -332,6 +353,7 @@ body {
       flex-direction: column;
       gap: 40px;
     }
+
 
     section#manutention > h1 {
       text-align: center;
