@@ -97,7 +97,7 @@ body {
     flex-direction: column;
     background-color: #1A1A1A;
     padding: 20px 0px 20px 0px;
-    height: 500px;
+    height: 530px;
   }
 
   section#about-us > h1 {
@@ -164,6 +164,9 @@ body {
     align-items: center;
     flex-direction: column;
     height: 500px;
+    margin-top: 50px;
+    gap: 30px;
+    padding: 12px 0px 12px 0px;
   }
 
   section#services > #container-services {
@@ -215,6 +218,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    gap: 35px;
+    padding: 15px 0px 15px 0px;
   }
 
   section#photos > #container-photos {
@@ -229,8 +234,10 @@ body {
   }
 
   section#photos > #container-photos > img {
-    width: 210px;
+    width: 190px;
     border-radius: 5px;
+    /*flex: 1 1 calc(50% - 16px);*/
+    /**/
   }
 
   section#photos > #container-photos > img:hover {
@@ -292,11 +299,18 @@ body {
   }
 
  @media (max-width: 1190px) {
-    
+     section#services {
+      height: auto;
+    }
+
+    section#photos > #container-photos > img {
+      width: 170px;
+    }
 
  }
 
   @media (max-width: 1100px) {
+
      
     section#identity > #container-cards{
       gap: 20px;
@@ -305,18 +319,19 @@ body {
       section#about-us > p{
          font-size: 18px;
       }
+
+      section#photos {
+      height: auto;
+    }
+
+      section#photos > #container-photos {
+        flex-wrap: wrap;
+        gap: 25px;
+      }
   }
 
   @media (max-width: 1000px) {
-    section#manutention > h1 {
-      font-size: 20px;
-    }
-
-    section#manutention > a {
-      font-size: 13px;
-      padding: 5px;
-    }
-
+  
     section#partners > div > img {
       width: 250px;
     }
@@ -328,7 +343,6 @@ body {
       section#about-us > h1 {
         font-size: 20px;
       }
-
 
   }
 
@@ -346,23 +360,27 @@ body {
     section#identity > #container-cards {
       flex-direction: column;
     }
+
+    section#about-us {
+      height: auto;
+    }
+
+    section#about-us > p {
+      width: 75%;
+    }
+
+    section#photos {
+      padding: 20px 0px 20px 0px;
+    }
+
+    section#photos > #container-photos {
+      gap: 30px;
+    }
+
+  
   }
 
   @media (max-width: 800px) {
-    section#manutention {
-      flex-direction: column;
-      gap: 40px;
-    }
-
-
-    section#manutention > h1 {
-      text-align: center;
-    }
-
-    section#manutention > a {
-      width: 80%;
-      padding: 8px;
-    }
 
     section#partners > div{
       flex-direction: column;
@@ -379,16 +397,16 @@ body {
        font-size: 28px;
     }
 
-    section#services > #container-services > div > img {
-      width: 270px;
-    }
-
     section#services > #container-services > div > p {
       width: 255px;
     }
 
+    section#services > #container-services > div {
+      width: 398px;
+    }
+
     section#services > #container-services {
-      gap: 100px;
+      gap: 50px;
     }
 
     section#partners > div > img{
@@ -405,6 +423,10 @@ body {
 
     section#banner-container > i#left-arrow {
       left: 8%;
+    }
+
+    section#message > form > input {
+      width: 370px;
     }
 
   }
