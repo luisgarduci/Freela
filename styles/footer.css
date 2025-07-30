@@ -63,5 +63,17 @@ footer > #social-media > a > i {
         flex-direction: column;
         gap: 5px;
     }
+
+    footer > div > img {
+        width: 85px;
+    }
+
+    footer > div > p {
+        font-size: 14px;
+    }
+
+    footer > #social-media {
+        gap: 18px;
+    }
 }
 
