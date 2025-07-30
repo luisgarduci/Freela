@@ -9,8 +9,20 @@ footer {
     padding: 12px 0px 12px 0px;
 }
 
+footer > #address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+   
+}
+
 footer > div > img {
     width: 130px;
+}
+footer > div > p {
+    color: white;
+    width: 200px;
 }
 
 footer > #social-media {
@@ -30,5 +42,26 @@ footer > #social-media > a {
 footer > #social-media > a > i {
     font-size: 30px;
     color: black;
+}
+
+@media (max-width: 900px) {
+    footer > div > img {
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    footer {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    footer > #address {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
 
