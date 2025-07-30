@@ -397,12 +397,13 @@ body {
        font-size: 28px;
     }
 
-    section#services > #container-services > div > p {
-      width: 255px;
+    section#services > #container-services > div > ul > li {
+      font-size: 16px;
     }
 
     section#services > #container-services > div {
-      width: 398px;
+      width: 300px;
+      height: auto;
     }
 
     section#services > #container-services {
@@ -426,7 +427,7 @@ body {
     }
 
     section#message > form > input {
-      width: 370px;
+      width: 300px;
     }
 
   }
