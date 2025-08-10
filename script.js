@@ -8,7 +8,8 @@ const message = document.getElementById("messageCostumer");
 const warning = document.getElementById("warning");
 const loader = document.getElementById("loader");
 const submit = document.getElementById("submit");
-const notification = document.getElementById("notification")
+const notification = document.getElementById("notification");
+
 
 burguer_menu.addEventListener("click", (e) => {
       if (phone_menu.style.visibility === "visible") {
