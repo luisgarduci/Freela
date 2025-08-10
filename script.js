@@ -27,7 +27,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   loader.style.display = "block";
   submit.style.display = "none";
-  fetch("https://freela-30dw.onrender.com/message", {
+  fetch("http://127.0.0.1:8081/message", {
     method: "POST",
     headers: {
       'Content-Type': 'application/json'
