@@ -31,11 +31,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   loader.style.display = "block";
   submit.style.display = "none";
-<<<<<<< HEAD
   fetch("https://freela-30dw.onrender.com/message", {
-=======
-  fetch("https://freela-30dw.onrender.com/message", {
->>>>>>> luis
     method: "POST",
     headers: {
       'Content-Type': 'application/json'
