@@ -1,3 +1,4 @@
+
 const burguer_menu = document.getElementById("burguer");
 const phone_menu = document.getElementById("phone-menu");
 const name = document.getElementById("name");
