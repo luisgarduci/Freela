@@ -9,6 +9,10 @@ const warning = document.getElementById("warning");
 const loader = document.getElementById("loader");
 const submit = document.getElementById("submit");
 const notification = document.getElementById("notification");
+<<<<<<< HEAD
+=======
+
+>>>>>>> luis
 
 burguer_menu.addEventListener("click", (e) => {
       if (phone_menu.style.visibility === "visible") {
@@ -26,7 +30,11 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   loader.style.display = "block";
   submit.style.display = "none";
+<<<<<<< HEAD
   fetch("https://freela-30dw.onrender.com/message", {
+=======
+  fetch("https://freela-30dw.onrender.com/message", {
+>>>>>>> luis
     method: "POST",
     headers: {
       'Content-Type': 'application/json'

@@ -10,53 +10,8 @@ body {
 }
 
 
-.carousel-container {
-    position: relative;
-    width: 600px;
-    margin: 50px auto;
-    overflow: hidden;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-  }
-  
-  .carousel-slide {
-    display: none;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .active {
-    display: block;
-  }
-  
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 16px;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    border: none;
-    font-size: 18px;
-    border-radius: 50%;
-  }
-  
-  .prev { 
-    left: 10px; 
-}
-  .next { 
-    right: 10px; 
-}
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+
+
 
   section#banner-container {
     width: 100%;
@@ -210,39 +165,45 @@ body {
     color: white;
   }
 
-  section#photos {
+  section#partners {
     background-color: #1A1A1A;
-    height: 480px;
-    margin-top: 50px;
+    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
-    padding: 15px 0px 15px 0px;
+    margin: 35px 0px 35px 0px;
+    padding: 10px 0px 10px 0px;
   }
 
-  section#photos > #container-photos {
+  section#partners > h1 {
+    color: #EBD924;
+    font-size: 28px;
+  }
+
+  section#partners > #bar {
+    width: 550px;
+    color: #EBD924;
+    background-color: #EBD924;
+    border-radius: 5px;
+  }
+
+  section#partners > i {
+    font-size: 60px;
+  }
+
+  section#partners > #logo-partners{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 30px;
   }
 
-  section#photos > h2 {
-    color: #EBD924;
-  }
-
-  section#photos > #container-photos > img {
-    width: 190px;
+  section#partners > #logo-partners > img {
+    width: 360px;
     border-radius: 5px;
-    /*flex: 1 1 calc(50% - 16px);*/
-    /**/
-  }
-
-  section#photos > #container-photos > img:hover {
-    scale: 110%;
-    transition: 0.5s;
+    background-color: #f3f3f3;
   }
 
   section#message {
@@ -357,9 +318,6 @@ body {
 
   @media (max-width: 1000px) {
   
-    section#partners > div > img {
-      width: 250px;
-    }
 
     section#about-us > p{
          font-size: 15px;
@@ -401,18 +359,24 @@ body {
     section#photos > #container-photos {
       gap: 30px;
     }
-
-  
   }
 
   @media (max-width: 800px) {
 
-    section#partners > div{
-      flex-direction: column;
+    section#partners > #logo-partners > img {
+      width: 45%;
     }
 
-    section#partners > div > img {
-      width: 300px;
+    section#partners {
+      
+    } 
+
+    section#partners > i {
+      font-size: 50px;
+    }
+
+    section#partners > #bar {
+      width: 80%;
     }
   }
 
@@ -456,5 +420,7 @@ body {
     }
 
   }
+
+
 
 
