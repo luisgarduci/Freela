@@ -129,13 +129,17 @@
 
     <section id="message">
     <h1>FALE <strong style="color: #EBD924">CONOSCO</strong></h1>
-        <form>
-            <input type="text" placeholder="Nome:">
-            <input type="email" placeholder="E-mail:">
-            <input type="tel" placeholder="Celular:">
-            <textarea type="text" placeholder="Mensagem:"></textarea>
-            <button type="submit">Enviar</button>
+        <form id="form">
+            <input type="text" placeholder="Nome:" id="name">
+            <input type="email" placeholder="E-mail:" id="email">
+            <input type="tel" placeholder="Celular:" id="number">
+            <textarea type="text" placeholder="Mensagem:" id="messageCostumer"></textarea>
+            <button type="submit" id="submit">Enviar</button>
         </form>
+        <div id="notification">
+         <p id="warning">Erro ao enviar e-mail, entre em contato pelo whatsapp</p>
+        </div>
+        <div id="loader">
     </section>
 
     <footer>
