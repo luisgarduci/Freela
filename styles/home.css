@@ -430,6 +430,8 @@ body {
     section#partners > div > img {
       width: 300px;
     }
+
+    
   }
 
   @media (max-width: 700px) {
@@ -437,7 +439,7 @@ body {
     
 
     section#services > h1 {
-       font-size: 28px;
+       font-size: 22px;
     }
 
     section#services > #container-services > div  {
