@@ -160,7 +160,6 @@ body {
   height: 350px;
   }
 
- 
   section#identity > #container-cards > div > h3{
      color: #EBD924;
      font-size: 25px;
@@ -315,15 +314,44 @@ body {
     font-size: 20px;
   }
 
- @media (max-width: 1190px) {
+  @media (max-width: 1250px) {
     
+    section#services > #container-services { 
+        gap: 5px;
+    }
+  
+  }
+
+ @media (max-width: 1190px) {
+
+  section#services > #container-services { 
+     gap: 5px;
+  }
+    
+  section#identity > #container-cards {
+    gap: 15px;
+  }
 
  }
 
+ @media (max-width: 1150px) {
+   section#services > #container-services { 
+     gap: 150px;
+  }
+ }
+
   @media (max-width: 1100px) {
+
      
     section#identity > #container-cards{
-      gap: 20px;
+      gap: 30px;
+      flex-direction: column;
+    }
+
+    section#identity > #container-cards > div{
+       padding: 10px;
+       height: 330px;
+       font-size: 20px;
     }
 
       section#about-us > p{
@@ -353,23 +381,30 @@ body {
         font-size: 20px;
       }
 
+      section#services > #container-services { 
+          gap: 70px;
+      }
+
+      
+
 
   }
 
   @media (max-width: 950px) {
+
+    section#services > h1 {
+        
+      margin-top: 300px;
+      
+        
+      }
 
     section#identity {
       height: 900px;
       padding: 10px 0px 10px 0px;
       gap: 30px;
     }
-    section#identity > #container-cards > div{
-       padding: 15px;
-    }
-
-    section#identity > #container-cards {
-      flex-direction: column;
-    }
+    
   }
 
   @media (max-width: 800px) {
@@ -399,8 +434,14 @@ body {
 
   @media (max-width: 700px) {
 
+    
+
     section#services > h1 {
        font-size: 28px;
+    }
+
+    section#services > #container-services > div  {
+      width: 280px;
     }
 
     section#services > #container-services > div > img {
@@ -412,7 +453,7 @@ body {
     }
 
     section#services > #container-services {
-      gap: 100px;
+      gap: 70px;
     }
 
     section#partners > div > img{
