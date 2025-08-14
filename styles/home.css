@@ -149,6 +149,7 @@ body {
     align-items: flex-start;
     flex-direction: column;
     gap: 5px;
+    cursor: pointer;
   }
 
   section#services > #container-services > div:hover {
