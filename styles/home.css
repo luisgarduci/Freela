@@ -21,11 +21,10 @@ body {
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
-.backgroundImg > img{
-  width: 200vh;
-}
+
 
   section#banner-container {
     width: 100%;
@@ -340,9 +339,6 @@ body {
       section#services > #container-services { 
           gap: 70px;
       }
-
-      
-
 
   }
 
