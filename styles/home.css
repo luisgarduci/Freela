@@ -423,13 +423,23 @@ body {
   }
 
   @media (max-width: 800px) {
+    
+  }
 
   @media (max-width: 700px) {
 
+    section#message > h1 {
+       font-size: 23px;
+       margin-top: 70px;
+  } 
+
+    section#message > form > input, textarea { 
+        width: 340px;
+    }
     
 
     section#services > h1 {
-       font-size: 28px;
+       font-size: 23px;
     }
 
     section#services > #container-services > div  {
@@ -450,9 +460,6 @@ body {
        width: 250px;
     }
 
-    /*section#banner-container > img{
-
-    }*/
 
     section#banner-container > i {
       font-size: 40px;
@@ -462,5 +469,5 @@ body {
       left: 8%;
     }
 
-  }
+  
 
