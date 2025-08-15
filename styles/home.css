@@ -251,6 +251,7 @@ body {
     padding: 10px 10px;
     display: none;
     border-radius: 5px;
+    margin-bottom: 80px;
   }
 
   section#message > #loader {
@@ -262,6 +263,7 @@ body {
   animation: spin 1s linear infinite;
   margin: auto;
   display: none;
+  margin-bottom: 80px;
 }
 
 @keyframes spin {
