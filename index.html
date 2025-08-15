@@ -125,27 +125,21 @@
         </div>
     </section>
 
-    <!--<section id="photos">
-        <h2>FOTOS</h2>
-        <div id="container-photos">
-            <img src="images/picture1.png">
-            <img src="images/picture2.png">
-            <img src="images/picture5.png">
-            <img src="images/picture6.png">
-            <img src="images/picture7.png">
-            <img src="images/picture8.png">
-        </div>
-    </section>-->
-
     <section id="message">
     <h1>FALE <strong style="color: #EBD924">CONOSCO</strong></h1>
         <form>
-            <input type="text" placeholder="Nome:">
-            <input type="email" placeholder="E-mail:">
-            <input type="tel" placeholder="Celular:">
-            <textarea type="text" placeholder="Mensagem:"></textarea>
-            <button type="submit">Enviar</button>
+            <input type="text" placeholder="Nome:" id="name">
+            <input type="email" placeholder="E-mail:" id="email">
+            <input type="tel" placeholder="Celular:" id="phone">
+            <textarea type="text" placeholder="Mensagem:" id="messageCostumer"></textarea>
+            <button type="submit" id="submit">Enviar</button>
         </form>
+        <div id="notification">
+         <p id="warning">Erro ao enviar e-mail, entre em contato pelo whatsapp</p>
+        </div>
+        <div id="loader">
+
+        </div>
     </section>
 
     <footer>
