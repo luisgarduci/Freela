@@ -344,13 +344,13 @@ body {
 
      
     section#identity > #container-cards{
-      gap: 30px;
+      gap: 35px;
       flex-direction: column;
     }
 
     section#identity > #container-cards > div{
        padding: 10px;
-       height: 330px;
+       height: 345px;
        font-size: 20px;
     }
 
