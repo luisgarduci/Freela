@@ -24,8 +24,8 @@ section#presentation > header > nav {
     color: white;
     width: 200px;
     position: absolute;
-    top: 100px;
-    right: 0px;
+    top: 95px;
+    right: 100px;
     visibility: hidden;
     display: flex;
     justify-content: center;
