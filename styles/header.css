@@ -71,7 +71,7 @@ section#presentation > header > div > a {
 
 
 section#presentation > header > img {
-    width: 80px;
+    width: 100px;
     padding: 20px;
 }
 
@@ -82,6 +82,7 @@ section#presentation > #titles {
     gap: 10px;
     flex-direction: column;
     margin-top: 120px;
+    cursor: default;
 }
 
 section#presentation > #titles > h1 {
