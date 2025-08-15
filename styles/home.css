@@ -20,10 +20,7 @@ body {
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.backgroundImg > img{
-  width: 200vh;
+  width: 100vh;
 }
 
 .carousel-container {
