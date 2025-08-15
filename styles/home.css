@@ -371,7 +371,9 @@ body {
   }
 
   @media (max-width: 800px) {
-    
+    a#back-top {
+    display: none;
+  }
   }
 
   @media (max-width: 700px) {
