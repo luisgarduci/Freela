@@ -25,7 +25,7 @@ section#presentation > header > nav {
     width: 150px;
     position: absolute;
     top: 95px;
-    right: 20px;
+    right: 15px;
     visibility: hidden;
     display: flex;
     justify-content: center;
