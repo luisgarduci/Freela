@@ -73,6 +73,7 @@ body {
     font-size: 33px;
     color: white;
     margin-top: 4.5%;
+    margin-bottom: 10px;
   }
 
   section#about-us > p {
@@ -80,6 +81,7 @@ body {
      font-size: 18px;
      width: 60%;
      color: white;
+     margin-bottom: 30px;
   }
 
   section#identity {
@@ -147,7 +149,7 @@ body {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    gap: 35px;
+    gap: 20px;
   }
 
   section#services > h1 {
@@ -322,8 +324,7 @@ body {
 
     section#identity > #container-cards{
       gap: 20px;
-      gap: 30px;
-      flex-direction: column;
+
     }
 
     section#identity > #container-cards > div{
@@ -336,9 +337,7 @@ body {
         font-size: 20px;
       }
 
-      section#services > #container-services { 
-          gap: 70px;
-      }
+      
 
   }
 
@@ -346,7 +345,7 @@ body {
 
     section#services > h1 {
         
-      margin-top: 300px;
+      margin-top: 280px;
       
         
       }
@@ -356,12 +355,14 @@ body {
       padding: 10px 0px 10px 0px;
       gap: 30px;
     }
+
     section#identity > #container-cards > div{
        padding: 15px;
     }
 
     section#identity > #container-cards {
       flex-direction: column;
+      gap: 60px;
     }
     
   }
@@ -369,6 +370,10 @@ body {
   @media (max-width: 800px) {
     a#back-top {
     display: none;
+  }
+
+  section#about-us > p {
+    margin-top: 20px;
   }
   }
 
@@ -381,6 +386,10 @@ body {
 
     section#message > form > input, textarea { 
         width: 340px;
+    }
+
+    section#services > #container-services {
+      gap: 60px;
     }
     
 
@@ -395,12 +404,6 @@ body {
     section#services > #container-services > div > img {
       width: 250px;
     }
-    }
-
-    section#services > #container-services {
-      gap: 100px;
-      gap: 70px;
-    }
 
     section#partners > div > img{
        width: 250px;
@@ -413,7 +416,8 @@ body {
 
     section#banner-container > i#left-arrow {
       left: 8%;
+    
     }
 
-  
+  }
 
