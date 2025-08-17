@@ -36,7 +36,7 @@ server.post("/message", async (req, res) => {
 
   try {
     await transporter.sendMail({
-      from: email,
+      from: user,
       to: 'luisfernandogmena@gmail.com',
       subject: `Nova mensagem de ${name}, Número: ${number}, Email: ${email}`,
       text: message
