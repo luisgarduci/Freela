@@ -23,11 +23,13 @@ server.post("/message", async (req, res) => {
     console.log(req.body);
     const {name, email, number, message} = req.body;
 
-    const user = "luisfernandogmena@gmail.com";
-    const pass = "nqcjzdwmaiauhheu";
+    const user = "mensagens@clsolucoesindustriais.com";
+    const pass = "Ju@501013";
 
      const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.hostinger.com',
+    port: 465,
+    secure: true,
     auth: {
       user: user,
       pass: pass // Use senha de app se for Gmail
@@ -36,13 +38,12 @@ server.post("/message", async (req, res) => {
 
   try {
     await transporter.sendMail({
-      from: user,
-      to: 'luisfernandogmena@gmail.com',
+      from: email,
+      to: 'clsolucoesind@gmail.com',
       subject: `Nova mensagem de ${name}, Número: ${number}, Email: ${email}`,
       text: message
     });
 
-    //celsof.junior@hotmail.com
 
     res.status(200).send('Mensagem enviada com sucesso');
   } catch (err) {
